@@ -1,0 +1,21 @@
+{
+    "name": "white-belt-color-theme",
+    "displayName": "White Belt Color Theme",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.52.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "White Belt",
+                "uiTheme": "vs",
+                "path": "./themes/White Belt-color-theme.json"
+            }
+        ]
+    }
+}
