@@ -3,9 +3,10 @@
 	"type": "light",
 	"colors": {
 		"editor.background": "#f8f6f0",
+		"sideBar.background": "#f8f6f0",
 		"editor.lineHighlightBackground": "#FFF",
 		"editor.foreground": "#484832",
-		"statusBar.background": "#D9D7AF"
+		"statusBar.background": "#979784"
 	},
 	"tokenColors": [
 		{
@@ -17,7 +18,12 @@
 		},
 		{
 			"name": "Keywords and punctuation",
-			"scope": ["keyword", "storage", "storage.type", "punctuation"],
+			"scope": [
+				"keyword",
+				"storage",
+				"storage.type",
+				"punctuation"
+			],
 			"settings": {
 				"foreground": "#484832"
 			}
@@ -68,8 +74,13 @@
 				"foreground": "#616156"
 			}
 		},
-		{ "name": "Annotations",
-			"scope": ["variable.annotation", "punctuation.definition.annotation", "storage.modifier"],
+		{
+			"name": "Annotations",
+			"scope": [
+				"variable.annotation",
+				"punctuation.definition.annotation",
+				"storage.modifier"
+			],
 			"settings": {
 				"foreground": "#616156"
 			}
