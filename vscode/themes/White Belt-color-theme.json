@@ -2,11 +2,19 @@
 	"name": "White Belt",
 	"type": "light",
 	"colors": {
-		"editor.background": "#f8f6f0",
-		"sideBar.background": "#f8f6f0",
-		"editor.lineHighlightBackground": "#FFF",
+		"editor.background": "#f6f4f0",
 		"editor.foreground": "#484832",
-		"statusBar.background": "#979784"
+		"sideBar.background": "#e8e6e0",
+		"statusBar.background": "#f6f4f0",
+		"statusBar.foreground": "#484832",
+		"statusBar.border": "#e8e6e0",
+		"statusBarItem.remoteBackground": "#f6f4f0",
+		"statusBarItem.remoteForeground": "#484832",
+		// "editor.lineHighlightBackground": "#FFF",
+		"editorBracketMatch.background": "#FFF",
+		"editorBracketMatch.border": "#FFF",
+		"editor.wordHighlightBackground": "#ffffff",
+		"editor.wordHighlightStrongBackground": "#ffffff",
 	},
 	"tokenColors": [
 		{
