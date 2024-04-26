@@ -1,20 +1,37 @@
 {
+	// https://vscode-docs1.readthedocs.io/en/latest/getstarted/theme-color-reference/
 	"name": "White Belt",
 	"type": "light",
 	"colors": {
 		"editor.background": "#f6f4f0",
+		"editorWidget.background": "#f6f4f0",
 		"editor.foreground": "#484832",
+		//
 		"sideBar.background": "#e8e6e0",
+		"editorHoverWidget.background": "#e8e6e0",
+		"menu.background": "#e8e6e0",
+		"focusBorder": "#dda517",
+		"button.background": "#dda517",
+		"button.hoverBackground": "#be9200",
+		//
 		"statusBar.background": "#f6f4f0",
 		"statusBar.foreground": "#484832",
 		"statusBar.border": "#e8e6e0",
 		"statusBarItem.remoteBackground": "#f6f4f0",
 		"statusBarItem.remoteForeground": "#484832",
-		// "editor.lineHighlightBackground": "#FFF",
+		"editor.lineHighlightBackground": "#FFF",
+		"editor.lineHighlightBorder": "#00000000",
+		"editorLineNumber.foreground": "#c8c6c0",
 		"editorBracketMatch.background": "#FFF",
 		"editorBracketMatch.border": "#FFF",
 		"editor.wordHighlightBackground": "#ffffff",
 		"editor.wordHighlightStrongBackground": "#ffffff",
+		//
+		"errorLens.warningBackgroundLight": "#00000000",
+		"errorLens.infoBackgroundLight": "#00000000",
+		//
+		"settings.headerForeground": "#7a6214",
+		"settings.modifiedItemIndicator": "#92876c",
 	},
 	"tokenColors": [
 		{
